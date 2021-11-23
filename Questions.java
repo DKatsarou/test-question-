@@ -72,9 +72,10 @@ public class Questions {
 		{"0", "2", "3"} 
 	        
 	             };
+	// ca table contains the position of the correct answer from the answers table
 	 int[] ca = { 1, 1, 0, 2, 1, 2, 2, 1, 0, 2, 0, 0, 1, 0, 0, 1, 2, 0, 1, 2, 1, 0, 2, 1, 2, 2, 0, 0, 1, 2, 2, 1, 0, 2, 0, 2, 1, 2, 0, 2, 0, 1, 0, 0, 1, 2, 2, 0, 0, 1, 2, 0, 1, 0, 1, 1, 2, 0, 1, 2, 1, 0, 1, 2, 0, 1, 2
 			  };
-	
+	 //qs table contains the questions
 	  String[] qs = { "Στο νησί ποιας θεάς φιλοξενήθηκε ο Οδυσσέας για επτά χρόνια καθώς προσπαθούσε να επιστρέψει στην Ιθάκη;" ,
 			  "Ποιος θεός φιλοτέχνησε την ασπίδα του Αχιλλέα; ", 
 			  "Ποιος θεός οργίστηκε με τον Οδυσσέα και τους συντρόφους του, επειδή του έφαγαν τα ιερά του βόδια;",
@@ -140,9 +141,9 @@ public class Questions {
 			  "Πόσα παιδιά είχε η Αφροδίτη;"
 			   };
 	  
-	    public void startQuestions(int n){
-	      Question_check questions = new Question_check(qs[n],answers[n],ca[n],this);
-	      questions.playq();  
+	    public void startQuestions(int n){  //int arguement n is the number of the question that will be asked to the player
+	      Question_check questions = new Question_check(qs[n],answers[n],ca[n],this); //instance variable of the class questions is created
+	      questions.playq();  //method playq is executed 
 	        
 	       
 	    

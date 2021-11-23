@@ -5,7 +5,6 @@ public class Question_check {
     String Question;
     String[] op = new String[3];
     public Question_check(String q, String[] options, int ans, Questions quiz){
-        
         Question=q;
         correctAns = ans;
         op = options ;
@@ -15,7 +14,6 @@ public class Question_check {
         System.out.print("1. " + op[0] + "\n2. " + op[1] + "\n3. " + op[2] + "\n");
         System.out.println("Ποια είναι η απάντηση;");
         int a = sc.nextInt();
-        
         if (a == (correctAns + 1)) {
         	System.out.println("Η απάντηση είναι σωστή!");
         } else {

@@ -1,6 +1,6 @@
 
 public class Questions {
-	String[][] answers={
+	String[][] answers={      //table that contains the possible answers for the questions
 	        {" Κίρκη "," Καλυψώ ", " Αφροδίτη " },  
 	        {" Άρης "," Ήφαιστος ", " Ποσειδώνας " },
 	        { "'Ηλιος",  "Ποσειδώνας"," Δίας" }, 
